@@ -3,7 +3,11 @@
     <string name="app_name">HomeEase</string>
 
     <!--Splash-->
+<<<<<<< HEAD
     <string name="start">START"</string>
+=======
+    <string name="start">START</string>
+>>>>>>> teammate/master
     <string name="service_made_easy">Service Made Easy</string>
 
     <!--Sign In-->
@@ -23,7 +27,11 @@
 
     <!--Sign Up-->
     <string name="get_started">Get Started</string>
+<<<<<<< HEAD
     <string name="email">Email"</string>
+=======
+    <string name="email">Email</string>
+>>>>>>> teammate/master
     <string name="confirm_password">Re-Enter Password</string>
     <string name="enter_email">Enter email</string>
     <string name="re_enter_password">Re-Enter Password</string>
@@ -31,5 +39,46 @@
     <string name="agree">I agree to the</string>
     <string name="terms_of_service">Terms and Conditions</string>
 
+<<<<<<< HEAD
+=======
+    <!--Home Page-->
+    <string name="search_hint">Search</string>
+    <string name="what_service_do_you_need">What service do you need?</string>
+    <string name="view_all">View All</string>
+    <string name="electrical">Electrical</string>
+    <string name="cleaning">Cleaning</string>
+    <string name="gardening">Gardening</string>
+    <string name="construction">Construction</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_categories">Categories</string>
+    <string name="nav_chat">Chat</string>
+    <string name="nav_profile">Profile</string>
+
+    <!--Category Page-->
+    <string name="top_rated_workers">Top Rated Workers</string>
+    <string name="top_rated_subtitle">Our most experienced and highly rated professionals</string>
+    <string name="all_services">All Services</string>
+    <string name="hire">HIRE</string>
+    <string name="top_performer">Top Performer</string>
+    <string name="reviews_suffix">reviews</string>
+    <string name="jobs_suffix">jobs</string>
+    <string name="price_suffix">/day</string>
+
+    <!--Message Page-->
+    <string name="message_title">Message</string>
+    <string name="no_conversation_yet">You haven\'t made any conversations yet.</string>
+
+    <!--Profile Page-->
+    <string name="profile_title">Profile</string>
+    <string name="user_name_placeholder">Paulo Delacruz</string>
+    <string name="user_address_placeholder">San Agustin, Hagonoy, Bulacan</string>
+    <string name="general_settings">General Settings</string>
+    <string name="phone_label">Phone Number</string>
+    <string name="email_label">E-mail Address</string>
+    <string name="change_password">Change Password</string>
+    <string name="information">Information</string>
+    <string name="about_app">About App</string>
+    <string name="privacy_policy">Privacy and Policy</string>
+>>>>>>> teammate/master
 
 </resources>

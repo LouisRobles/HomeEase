@@ -12,6 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HomeEase">
         <activity
+<<<<<<< HEAD
+=======
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Message"
+            android:exported="false" />
+        <activity
+            android:name=".Category"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage"
+            android:exported="false" />
+        <activity
+>>>>>>> teammate/master
             android:name=".SignUp"
             android:exported="false" />
         <activity
