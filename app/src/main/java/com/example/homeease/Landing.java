@@ -14,6 +14,7 @@ public class Landing extends AppCompatActivity {
 
     private Button btn_sign_in;
     private Button btn_sign_up;
+    private String userRole;
 
 
     @Override
@@ -27,16 +28,20 @@ public class Landing extends AppCompatActivity {
             return insets;
         });
 
+        userRole = getIntent().getStringExtra("user_role");
+
         btn_sign_in = findViewById(R.id.btn_sign_in);
         btn_sign_up = findViewById(R.id.btn_sign_up);
 
         btn_sign_in.setOnClickListener(v -> {
             Intent intent = new Intent(Landing.this, SignIn.class);
+            intent.putExtra("user_role", userRole);
             startActivity(intent);
         });
 
         btn_sign_up.setOnClickListener(v -> {
             Intent intent = new Intent(Landing.this, SignUp.class);
+            intent.putExtra("user_role", userRole);
             startActivity(intent);
         });
     }

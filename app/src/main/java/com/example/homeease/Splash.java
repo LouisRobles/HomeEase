@@ -31,7 +31,7 @@ public class Splash extends AppCompatActivity {
         btn_splash_start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Splash.this, Landing.class);
+                Intent intent = new Intent(Splash.this, UserRoleSelectionActivity.class);
                 startActivity(intent);
             }
         });

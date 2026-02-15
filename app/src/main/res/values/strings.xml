@@ -3,11 +3,7 @@
     <string name="app_name">HomeEase</string>
 
     <!--Splash-->
-<<<<<<< HEAD
     <string name="start">START"</string>
-=======
-    <string name="start">START</string>
->>>>>>> teammate/master
     <string name="service_made_easy">Service Made Easy</string>
 
     <!--Sign In-->
@@ -27,11 +23,7 @@
 
     <!--Sign Up-->
     <string name="get_started">Get Started</string>
-<<<<<<< HEAD
     <string name="email">Email"</string>
-=======
-    <string name="email">Email</string>
->>>>>>> teammate/master
     <string name="confirm_password">Re-Enter Password</string>
     <string name="enter_email">Enter email</string>
     <string name="re_enter_password">Re-Enter Password</string>
@@ -39,8 +31,6 @@
     <string name="agree">I agree to the</string>
     <string name="terms_of_service">Terms and Conditions</string>
 
-<<<<<<< HEAD
-=======
     <!--Home Page-->
     <string name="search_hint">Search</string>
     <string name="what_service_do_you_need">What service do you need?</string>
@@ -79,6 +69,13 @@
     <string name="information">Information</string>
     <string name="about_app">About App</string>
     <string name="privacy_policy">Privacy and Policy</string>
->>>>>>> teammate/master
 
+    <!--Worker's HomePage-->
+    <string name="title_header">HomeEase</string>
+
+    <!--Worker's Record-->
+    <string name="record_header">Records</string>
+    <string name="ongoing">Ongoing</string>
+    <string name="completed">Completed</string>
+    <string name="cancelled">Cancelled</string>
 </resources>

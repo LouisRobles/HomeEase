@@ -6,4 +6,8 @@
     </style>
 
     <style name="Theme.HomeEase" parent="Base.Theme.HomeEase" />
+
+    <style name="CircleImage">
+        <item name="cornerSize">50%</item>
+    </style>
 </resources>
