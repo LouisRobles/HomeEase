@@ -13,32 +13,32 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class WorkerRecordFragment extends Fragment {
+public class WorkerRecordFragmentComplete extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_worker_record, container, false);
+        View view = inflater.inflate(R.layout.fragment_worker_record_complete, container, false);
 
         RecyclerView rvRecords = view.findViewById(R.id.rvRecords);
         rvRecords.setLayoutManager(new LinearLayoutManager(getContext()));
 
         List<Record> records = new ArrayList<>();
-        records.add(new Record("Ongoing", "Feb 13, 2025", "Ren Gabriel", "Sta Monica, Hagonoy, Bulacan", "09386214232", "Plumbing", "P700", R.drawable.home_ease_logo));
-        records.add(new Record("Ongoing", "Feb 14, 2025", "Daisy Flores", "Sto Rosario, Hagonoy, Bulacan", "09012556373", "Electrical", "P1500", R.drawable.home_ease_logo));
-        records.add(new Record("Ongoing", "Feb 15, 2025", "Maria Santos", "San Jose, Hagonoy, Bulacan", "09123456789", "Cleaning", "P500", R.drawable.home_ease_logo));
-        records.add(new Record("Ongoing", "Feb 16, 2025", "John Doe", "San Pedro, Hagonoy, Bulacan", "09987654321", "Gardening", "P400", R.drawable.home_ease_logo));
-        records.add(new Record("Ongoing", "Feb 17, 2025", "Ana Reyes", "San Agustin, Hagonoy, Bulacan", "09112233445", "Construction", "P1000", R.drawable.home_ease_logo));
+        records.add(new Record("Completed", "Feb 2, 2025", "Paulo Delacruz", "San Agustin, Hagonoy, Bulacan", "09386215852", "House Cleaning", "P1000", R.drawable.home_ease_logo));
+        records.add(new Record("Completed", "Feb 1, 2025", "Jolo Robles", "San Pedro Hagonoy, Bulacan", "09123556373", "Gardening", "P900", R.drawable.home_ease_logo));
+        records.add(new Record("Completed", "Jan 30, 2025", "Santi Go", "San Sebastian, Hagonoy, Bulacan", "09123456780", "Electrical", "P1200", R.drawable.home_ease_logo));
+        records.add(new Record("Completed", "Jan 28, 2025", "Rico Yan", "Poblacion, Hagonoy, Bulacan", "09123456781", "Plumbing", "P800", R.drawable.home_ease_logo));
+        records.add(new Record("Completed", "Jan 25, 2025", "Bea Alonzo", "San Nicolas, Hagonoy, Bulacan", "09123456782", "Construction", "P2000", R.drawable.home_ease_logo));
 
         RecordAdapter adapter = new RecordAdapter(records);
         rvRecords.setAdapter(adapter);
 
-        Button btnCompleted = view.findViewById(R.id.btn_completed);
+        Button btnOngoing = view.findViewById(R.id.btn_ongoing);
         Button btnCancelled = view.findViewById(R.id.btn_cancelled);
 
-        btnCompleted.setOnClickListener(v -> {
+        btnOngoing.setOnClickListener(v -> {
             getParentFragmentManager().beginTransaction()
-                    .replace(R.id.fragment_container, new WorkerRecordFragmentComplete())
+                    .replace(R.id.fragment_container, new WorkerRecordFragment())
                     .commit();
         });
 

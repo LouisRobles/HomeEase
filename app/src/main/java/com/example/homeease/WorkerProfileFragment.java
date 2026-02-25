@@ -13,9 +13,6 @@ public class WorkerProfileFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_placeholder, container, false);
-        TextView textView = view.findViewById(R.id.fragment_text);
-        textView.setText("Worker Profile Fragment");
-        return view;
+        return inflater.inflate(R.layout.fragment_worker_profile, container, false);
     }
 }

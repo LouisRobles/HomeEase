@@ -20,30 +20,12 @@
         <activity
             android:name=".WorkerMainActivity"
             android:exported="false" />
-        <activity
-            android:name=".Worker_Record"
-            android:exported="false" />
         <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-3940256099942544~3347511713" /> <!-- <activity -->
         <!-- android:name=".Worker_Landing_Page" -->
         <!-- android:exported="false" /> -->
-        <activity
-            android:name=".Worker_Request"
-            android:exported="false" />
-        <activity
-            android:name=".Profile"
-            android:exported="false" />
-        <activity
-            android:name=".Message"
-            android:exported="false" />
-        <activity
-            android:name=".Category"
-            android:exported="false" />
-        <activity
-            android:name=".HomePage"
-            android:exported="false" />
         <activity
             android:name=".SignUp"
             android:exported="false" />
